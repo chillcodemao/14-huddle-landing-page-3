@@ -374,6 +374,11 @@ body {
     .huddle-newsletter {
         max-width: 32rem;
     }
+    
+    .social-media img {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
 
     .subscribe-btn:hover, .subscribe-btn:focus {
         background-color: #FF8ED7;
