@@ -1,0 +1,124 @@
+:root {
+    font-size: 62.5%;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+p, a, li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.try-huddle-btn a {
+    font-weight: 400;
+    font-size: 0.95rem;
+    line-height: 1.3rem;
+    color: #FF52C1;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #00252E;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #00252E;
+}
+
+.get-started-free {
+    background-color: #FF52C1;
+}
+
+.get-started-free a {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #FFF;
+}
+
+.stats-numbers {
+    font-weight: 700;
+    font-size: 6.1rem;
+    line-height: 9.2rem;
+    color: #00252E;
+}
+
+.stats-description {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    color: #808E9A;
+}
+
+.huddle-grow-card {
+    background-color: #F6FBFF;
+}
+
+.huddle-users-card {
+    background-color: #F6FBFF;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #00252E;
+}
+
+.huddle-cta h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #00252E;
+}
+
+.about-newsletter h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #FFF;
+}
+
+.about-newsletter p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #FFF;
+}
+
+.subscribe-btn {
+    background-color: #FF52C1;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.footer-container {
+    background-color: #00252E;
+}
+
+.huddle-contact p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #FFF;
+}
+
+.contact-phone p, .contact-email p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #FFF;
+}

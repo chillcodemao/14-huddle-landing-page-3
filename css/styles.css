@@ -1,0 +1,540 @@
+body {
+    min-height: 100vh;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 2.4rem 0rem 2.4rem;
+}
+
+.try-huddle-btn {
+    border: 0.05rem solid #FF52C1;
+    padding: 0.5rem 1.8rem;
+    border-radius: 1.1rem;
+    box-shadow: 0rem 0rem 0.5rem rgba(255, 82, 193, 0.218778);
+    transition: all 0.5s ease-in-out;
+}
+
+.try-huddle-btn a {
+    transition: all 0.5s ease-in-out;
+}
+
+.huddle-logo {
+    max-width: 9.6rem;
+}
+
+.huddle-logo img {
+    width: 100%;
+}
+
+.main-container {
+    margin-top: 11.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-huddle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 4rem;
+    text-align: center;
+}
+
+.huddle-screen-mockups {
+    max-width: 29.6rem;
+    margin-top: 10.4rem;
+}
+
+.huddle-screen-mockups img {
+    width: 100%;
+}
+
+.about-huddle p {
+    margin-top: 2.4rem;
+}
+
+.get-started-free {
+    margin-top: 4.8rem;
+    border: 0.05rem solid #FF52C1;
+    border-radius: 2rem;
+    box-shadow: 0rem 0.3rem 0.7rem rgba(0, 37, 46, 0.223053);
+    padding: 1.1rem 3.9rem;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.get-started-free a {
+    transition: all 0.5s ease-in-out;
+}
+
+.huddle-stats {
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8.8rem;
+}
+
+.stats-icons {
+    max-width: 3.5rem;
+}
+
+.stats-icons img {
+    width: 100%;
+}
+
+.highlights-image {
+    max-width: 28rem;
+}
+
+.highlights-image img {
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.show-img {
+    width: 100%;
+    display: block;
+}
+
+.hidden-img {
+    display: none;
+}
+
+.huddle-card-1 {
+    margin-top: 3rem;
+}
+
+.brief h2 {
+    margin-top: 6rem;
+}
+
+.brief p {
+    margin-top: 1.6rem;
+}
+
+.huddle-grow-card {
+    padding: 8rem 3.5rem 5rem 3.5rem;
+}
+
+.huddle-flow-card {
+    padding: 12.6rem 3.5rem 12.6rem 3.5rem;
+}
+
+.huddle-users-card {
+    padding: 0rem 3.5rem 12.9rem 3.5rem;
+}
+
+.huddle-cta {
+    margin-top: 6.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    margin-bottom: 25rem;
+}
+
+.bottom-btn {
+    margin: 0rem;
+}
+
+.bottom-btn a {
+    transition: all 0.5s ease-in-out;
+}
+
+.show-footer-img {
+    width: 100%;
+    display: block;
+    position: relative;
+    bottom: -0.3rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 2.7rem 4.5rem 2.7rem;
+}
+
+.about-newsletter p {
+    margin-top: 1.6rem;
+}
+
+.newsletter-subscribe {
+    margin-top: 5.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.email {
+    width: 100%;
+    max-width: 32rem;
+    height: 4.8rem;
+    border: 0.01rem solid #00252E;
+    border-radius: 0.6rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.subscribe-btn {
+    margin-top: 1.6rem;
+    border: 0.01rem solid #FF52C1;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    padding: 1.2rem 4.1rem;
+    width: 100%;
+    max-width: 16rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.huddle-logo-bottom {
+    max-width: 20rem;
+    margin-bottom: 1.6rem;
+}
+
+.huddle-logo-bottom img {
+    width: 100%;
+}
+
+.huddle-contact {
+    margin-top: 10rem;
+}
+
+.contact {
+    margin-top: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.social-media {
+    margin-top: 4.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.7rem;
+}
+
+.social-media img {
+    filter: brightness(0);
+    filter: saturate(200%);
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(200%) contrast(103%);
+    transition: all 0.5s ease-in-out;
+}
+
+@media (min-width: 770px) {
+
+    .header-container {
+        padding: 8rem 8rem 0rem 8rem;
+    }
+
+    .try-huddle-btn {
+        padding: 0.9rem 3rem;
+        border-radius: 2rem;
+    }
+
+    .try-huddle-btn:hover, .try-huddle-btn:focus {
+        border-color: #FF8ED7;
+        cursor: pointer;
+    }
+
+    .try-huddle-btn a {
+       font-size: 1.4rem;
+       line-height: 2rem;
+    }
+
+    .try-huddle-btn a:hover, .try-huddle-btn a:focus {
+        color: #FF8ED7;
+    }
+
+    .huddle-logo {
+        max-width: 18rem;
+    }
+
+    .about-huddle h1 {
+        font-size: 2.5rem;
+        line-height: 5rem;
+    }
+
+    .about-huddle p {
+        max-width: 45rem;
+    }
+
+    .get-started-free {
+        width: 100%;
+        max-width: 20rem;
+    }
+
+    .get-started-free:hover, .get-started-free:focus {
+        background-color: #FF8ED7;
+        border-color: #FF8ED7;
+        cursor: pointer;
+    }
+
+    .get-started-free a {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .huddle-screen-mockups {
+        max-width: 50rem;
+    }
+
+    .huddle-stats {
+        flex-direction: row;
+        margin-top: 12rem;
+        gap: 15rem;
+    }
+
+    .card {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .huddle-grow-card {
+        flex-direction: row-reverse;
+    }
+
+    .huddle-users-card {
+        flex-direction: row-reverse;
+    }
+
+    .show-img {
+        display: none;
+    }
+    
+    .hidden-img {
+        width: 100%;
+        display: block;
+    }
+
+    .huddle-card-1 {
+        margin-top: 13.3rem;
+    }
+
+    .brief {
+        max-width: 35rem;
+    }
+
+    .brief h2 {
+        margin-top: 0rem;
+    }
+
+    .huddle-cta {
+        margin-top: 14rem;
+        margin-bottom: 17.8rem;
+    }
+
+    .show-footer-img {
+        display: none;
+    }
+
+    .hidden-footer-img {
+        width: 100%;
+        display: block;
+        position: relative;
+        bottom: -0.3rem;
+    }
+
+    .footer-container {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .huddle-contact {
+        margin-top: 0rem;
+        max-width: 32rem;
+    }
+
+    .huddle-newsletter {
+        max-width: 32rem;
+    }
+
+    .subscribe-btn:hover, .subscribe-btn:focus {
+        background-color: #FF8ED7;
+        border-color: #FF8ED7;
+        cursor: pointer;
+    }
+
+    .social-media img:hover, .social-media img:focus {
+        filter: invert(60%) sepia(85%) saturate(2113%) hue-rotate(155deg) brightness(200%) contrast(105%);
+        cursor: pointer;
+    }
+
+}
+
+@media (min-width: 1250px) {
+
+    .try-huddle-btn a {
+       font-size: 1.6rem;
+       line-height: 2.2rem;
+    }
+
+    .huddle-logo {
+        max-width: 24rem;
+    }
+
+    .about-huddle h1 {
+        font-size: 4.8rem;
+        line-height: 7.2rem;
+        margin-top: 11rem;
+    }
+
+    .about-huddle p {
+        max-width: 60rem;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .get-started-free {
+        max-width: 21rem;
+        padding: 2.5rem 10rem;
+        border-radius: 4rem;
+    }
+
+    .get-started-free a {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .huddle-screen-mockups {
+        max-width: 101rem;
+    }
+
+    .huddle-stats {
+        flex-direction: row;
+        margin-top: 12rem;
+        gap: 34rem;
+        width: 100%;
+        max-width: 88rem;
+        justify-content: space-between;
+    }
+
+    .stats-numbers {
+        font-size: 9.6rem;
+        line-height: 14.4rem;
+    }
+
+    .stats-description {
+        font-size: 2.4rem;
+        line-height: 3.6rem;
+    }
+
+    .card {
+        max-width: 144rem;
+        justify-content: center;
+        gap: 12rem;
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+
+    .brief {
+        max-width: 52rem;
+        text-align: left;
+    }
+
+    .highlights-image {
+        width: 100%;
+        max-width: 56rem;
+    }
+
+    .brief h2 {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .brief p {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+
+    .huddle-cta {
+        gap: 4.2rem;
+    }
+
+    .huddle-cta h2 {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .footer-container {
+        padding: 12rem 12rem 10rem 12rem;
+        justify-content: space-between;
+    }
+
+    .huddle-newsletter {
+        max-width: 52rem;
+    }
+
+    .about-newsletter h2 {
+        font-size: 2.4rem;
+        line-height: 3.6rem;
+    }
+
+    .about-newsletter p {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+    }
+
+    .newsletter-subscribe {
+        max-width: 52rem;
+        margin-top: 4rem;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .subscribe-btn {
+        margin-left: 4rem;
+        margin-top: 0rem;
+    }
+
+    .email {
+        width: 100%;
+        max-width: 32rem;
+    }
+
+    .huddle-contact {
+        max-width: 34rem;
+    }
+
+    .huddle-contact p {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+    }
+
+    .contact {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+
+    .social-media {
+        margin-top: 8rem;
+    }
+
+}
